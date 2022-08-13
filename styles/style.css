@@ -1,0 +1,322 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+p{
+    font-family: HeadingProDouble-Regular,sans-serif;
+    text-align: center;
+}
+body{
+    min-height: 100vh;
+    transition: 2s;
+}
+.saut{
+    height: 45px;
+}
+.saut2{
+    height: 100px;
+}
+.saut3{
+    height: 140px;
+}
+
+.theme{
+    height:40px;
+    width:40px;
+    cursor:pointer;
+    box-shadow: 10px 10px 10px #aaaaaa;
+    border-radius: 30px;
+
+}
+.separation{
+    border-top: solid 1px #ccc;
+
+}
+.image{
+    border-radius:5%;
+    box-shadow: 10px 10px 10px #aaaaaa;
+}
+#dark{
+    background-color: rgb(52, 52, 52);
+} 
+#salmon{
+    background-color: #EDEABC;
+}
+#white{
+    background-color: white;
+}
+.darkTheme{
+    background: rgb(37, 37, 37);
+    color: white;
+}
+.salmonTheme{
+    background:#EDEABC;
+    color: black;
+}
+.whiteTheme{
+    background: white;
+    color: black;
+    background-color: white;
+}
+/*header */
+header{
+    position:absolute;
+    top:0px;
+    left:19.5%;
+    width: 40%;
+    padding: 30px 290px;
+    display:flex !important;
+    justify-content: space-between;
+}
+.logo
+{
+    color: #91fcfc;
+    font-weight: 700;
+    text-decoration: none !important;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: HeadingProDouble-Regular,sans-serif;
+    font-size: 16px;
+    font-weight:bold;
+}
+header ul li{
+    list-style:none;
+    margin-left: 0px;
+}
+header ul li a{
+    text-decoration: none !important;
+    padding: 10px 15px;
+    color: #000;
+}
+header ul li a:hover{
+    background-color: #2b1055;
+    color: #fff;
+    border-radius:5%;
+    font-size: 15px;
+}
+
+.presentation{
+    background-image:url('../images/pre.jpg');
+    display: inline-block;
+    padding: 1.5em 2em;
+    border-radius: 5px;
+    text-align: center;
+    background-size: cover; 
+	background-position: center ;
+    border-radius: 40px;
+    border: solid white !important;
+    box-shadow: 1px 5px 12px 5px #000 ;
+
+}
+.pre2{
+    margin: 0 0 1.5em 0;
+    text-align: center;
+}
+#haut
+{
+	background-image:url('../images/fond.jpg') ;
+    background-size: cover; 
+	background-position: center ;
+    height: 340px;
+}
+
+
+.themecontainer{
+    width: auto;
+    text-align: center;
+    
+}
+.nav1{
+    text-align: center;
+    
+}
+.moi{
+    height: 75px;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40% !important;
+}
+.quisuisje{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40% !important;
+    height: 75px;
+    font-size: 20px;
+
+}
+d{
+text-decoration: underline;
+text-underline-offset: 11px;
+text-decoration-thickness: 4px;
+}
+.cestmoi{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40% !important;
+    font-size: 25px;
+    font-weight:bold;
+    height: 80px;
+}
+.cestmoipres{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40% !important;
+    font-size: 20px;
+}
+.affich{
+    height: 450px;
+    text-align: center;
+}
+.btn{
+    border-radius: 15px !important;
+    padding: 20px;
+    width: 200px !important;
+}
+/*Projets */
+.pre2pro{
+    margin: 0 0 1.5em 0;
+    text-align: center;
+}
+.presentationpro{
+    background-image:url('../images/prepro.jpg');
+    display: inline-block;
+    padding: 1.5em 2em;
+    border-radius: 5px;
+    text-align: center;
+    background-size: cover; 
+	background-position: center ;
+    border-radius: 40px;
+    border: solid white !important;
+    box-shadow: 1px 5px 12px 5px #000 ;
+
+}
+#hautpro
+{
+	background-image:url('../images/fondpro.jpg') ;
+    background-size: cover; 
+	background-position: center ;
+    height: 300px;
+}
+
+/*Projets Professionnal */
+
+.pre2propro{
+    margin: 0 0 1.5em 0;
+    text-align: center;
+}
+.presentationpropro{
+    background-image:url('../images/prepropro.jpg');
+    display: inline-block;
+    padding: 4em 0em;
+    border-radius: 5px;
+    text-align: center;
+    border-radius: 40px;
+    border: solid white !important;
+    box-shadow: 1px 5px 12px 5px #000 ;
+    background-size: cover; 
+	background-position: center ;
+}
+#hautpropro
+{
+	background-image:url('../images/fondpropro.jpg') ;
+    background-size: cover; 
+	background-position: center ;
+    height: 340px;
+}
+
+/*Parcours */
+.pre2parcours{
+    margin: 0 0 1.5em 0;
+    text-align: center;
+}
+.presentationparcours{
+    background-image:url('../images/preparcours.jpg');
+    display: inline-block;
+    padding: 4em 0em;
+    border-radius: 5px;
+    text-align: center;
+    border-radius: 40px;
+    border: solid white !important;
+    box-shadow: 1px 5px 12px 5px #000 ;
+    background-size: cover; 
+	background-position: center ;
+}
+#hautparcours
+{
+	background-image:url('../images/fondparcours.jpg') ;
+    background-size: cover; 
+	background-position: center ;
+    height: 340px;
+}
+#basbas
+{
+    background: #f7f7f7;
+}
+.exppro
+{
+    font-size: 15px;
+}
+
+
+/*Contact */
+#hautcontact{
+    background-image:url('../images/fondcontact.jpg') ;
+    background-size: cover; 
+	background-position: center ;
+    height: 340px;
+}
+.presentationcontact{
+    background-image:url('../images/precontact.jpg');
+    display: inline-block;
+    padding: 4em 0em;
+    border-radius: 5px;
+    text-align: center;
+    border-radius: 40px;
+    border: solid white !important;
+    box-shadow: 1px 5px 12px 5px #000 ;
+    background-size: cover; 
+	background-position: center ;
+}
+.pre2contact{
+    margin: 0 0 1.5em 0;
+    text-align: center;
+}
+
+
+/* Media Queries */
+@media (max-width:807px){
+    .cestmoipres{
+        height: 300px;
+        display:none;
+    }
+}
+@media (min-width:2400px){
+    header{
+        width: 56%;
+    }
+}
+@media (max-width:1550px){
+    header{
+        left:10.5%;
+        width: 70%;
+    }
+}
+@media (min-width:1920px){
+    header{
+        left:14.5%;
+    }
+}
+@media (max-width:2560px){
+    header{
+        left:18.5%;
+    }
+}
