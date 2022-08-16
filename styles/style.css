@@ -107,11 +107,11 @@ header ul li{
 header ul li a{
     text-decoration: none !important;
     padding: 10px 15px;
-    color: #8A2BE2;
+    color: #0066b2;
 }
 header ul li a:hover{
     transition: 0.5s;
-    background-color: #2b1055;
+    background-color: #0066b2;
     color: #fff;
     border-radius:5%;
     font-size: 15px;
@@ -130,10 +130,24 @@ header ul li a:hover{
     box-shadow: 1px 5px 12px 5px #000 ;
 
 }
+.presentationharry{
+    background-image:url('../images/harrypotterfond.jpg');
+    display: inline-block;
+    padding: 1.5em 2em;
+    border-radius: 5px;
+    text-align: center;
+    background-size: cover; 
+	background-position: center ;
+    border-radius: 30px;
+    border: solid white !important;
+    box-shadow: 1px 5px 12px 5px #000 ;
+
+}
 .pre2{
     margin: 0 0 1.5em 0;
     text-align: center;
 }
+
 #haut
 {
 	background-image:url('../images/fond.jpg') ;
