@@ -31,3 +31,10 @@ theme.forEach((item) => {
 
 ('localStorage.getItem("themeColor");');
 ('localStorage.setItem("themeColor", "dark") ;');
+
+const OuvrirFermer = document.querySelector("#OuvrirFermer"); //ID=ouvrir
+const img = document.getElementById("img"); //ID=img
+
+OuvrirFermer.addEventListener("click", function () {
+  img.classList.toggle("show"); //Si jamais il y'a la classe show qui est ouvert il l'a ferme, s'il il est fermé il l'ouvre
+});
