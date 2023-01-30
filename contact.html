@@ -71,15 +71,48 @@
         <c>Me</c>
     </div>
 
-    <div class="container" style="height:800px ;">
-        <form>
-            <input type="text" id="name" placeholder="Nom" required>
-            <input type="text" id="email" placeholder="Email" required>
-            <input type="text" id="phone" placeholder="Numéro de téléphone" required>
-            <textarea id="message" rows="10" placeholder="Votre message"></textarea>
-            <button class="btn btn-danger" onclick="sendMail()">Envoyer</button>
-        </form>
+    <div class="container" style="height:800px ; text-align:left;">
+<div class="col">
+    <h5 for="nom"> Nom </h5>
+    <div class="from-group">
+        <input type="text" id="name" placeholder="Nom" required>
     </div>
+    </div>
+
+    <div class="saut0"></div>
+
+<div class="col">
+    <h5 for="email"> Email </h5>
+    <div class="from-group">
+        <input type="text" id="email" placeholder="Email" required>
+
+    </div>
+</div>
+
+<div class="saut0"></div>
+
+<div class="col">
+    <h5 for="numéro"> Numéro de téléphone </h5>
+    <div class="from-group">
+        <input type="text" id="phone" placeholder="Numéro de téléphone" required>
+
+    </div>
+</div>
+<div class="saut0"></div>
+<div class="col">
+    <h5 for="message"> Message </h5>
+    <div class="from-group">
+        <textarea id="message" rows="10" placeholder="Votre message" ></textarea>
+
+    </div>
+</div>
+<div class="saut0"></div>
+<div class="centrer">
+        <button style=" text-align:center;" class="btn btn-danger" onclick="sendMail()">Envoyer</button>
+    </div>
+    </div>
+
+
 
 
     <p style="font-weight:bold;font-size: 12px;height: 70px;">
