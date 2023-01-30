@@ -35,6 +35,29 @@ theme.forEach((item) => {
 const OuvrirFermer = document.querySelector("#OuvrirFermer"); //ID=ouvrir
 const img = document.getElementById("img"); //ID=img
 
-OuvrirFermer.addEventListener("click", function () {
-  img.classList.toggle("show"); //Si jamais il y'a la classe show qui est ouvert il l'a ferme, s'il il est fermé il l'ouvre
-});
+
+//Send Email Form JS
+function sendMail(){
+  var params = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    phone: document.getElementById("phone").value,
+    message: document.getElementById("message").value,
+  };
+
+const serviceID ="service_5v104qn";
+const templateID="template_74xb314";
+
+emailjs
+.send(serviceID, templateID, params) 
+.then((res)=>{
+    document.getElementById("name").value ="";
+    document.getElementById("email").value ="";
+    document.getElementById("phone").value ="";
+    document.getElementById("message").value ="";
+    console.log(res);
+    alert("your message sent successfully");
+})
+.catch((err) => console.log(err));
+
+}
