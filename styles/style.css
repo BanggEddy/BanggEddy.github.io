@@ -124,16 +124,16 @@ header{
     width: 40%;
     padding: 30px 290px;
     display:flex !important;
-    justify-content: space-between;
+    justify-content: space-between !important;
+
 }
 .logo
 {
     color: #91fcfc;
-    font-weight: 700;
+    font-weight: 700px;
     text-decoration: none !important;
     font-size: 3em;
     text-transform: uppercase;
-    letter-spacing: 10px;
 }
 
 header ul{
@@ -142,16 +142,18 @@ header ul{
     justify-content: center;
     align-items: center;
     font-family: HeadingProDouble-Regular,sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight:bold;
+
 }
 header ul li{
     list-style:none;
     margin-left: 0px;
+    
 }
 header ul li a{
     text-decoration: none !important;
-    padding: 10px 15px;
+    padding: 10px 10px;
     color: #0066b2;
 }
 header ul li a:hover{
