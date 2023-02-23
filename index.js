@@ -39,7 +39,8 @@ const img = document.getElementById("img"); //ID=img
 //Send Email Form JS
 function sendMail(){
   var params = {
-    name: document.getElementById("name").value,
+    name: document.getElementById("name").value,    name: document.getElementById("name").value,
+    prenom: document.getElementById("prenom").value,
     email: document.getElementById("email").value,
     phone: document.getElementById("phone").value,
     message: document.getElementById("message").value,
@@ -52,6 +53,7 @@ emailjs
 .send(serviceID, templateID, params) 
 .then((res)=>{
     document.getElementById("name").value ="";
+    document.getElementById("prenom").value ="";
     document.getElementById("email").value ="";
     document.getElementById("phone").value ="";
     document.getElementById("message").value ="";
