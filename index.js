@@ -46,7 +46,7 @@ function sendMail(){
   };
 
 const serviceID ="service_5v104qn";
-const templateID="template_74xb314";
+const templateID="template_w7162pr";
 
 emailjs
 .send(serviceID, templateID, params) 
