@@ -56,7 +56,6 @@ button{
 }
 body{
     min-height: 100vh;
-    transition: 2s;
 }
 .saut0{
     height: 20px;
