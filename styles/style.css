@@ -392,6 +392,7 @@ text-decoration-thickness: 4px;
 .image {
     transform-origin: 50% 50%;
     transition: transform 1s;
+    border-radius: 15%;
   }
 
 /* Media Queries */

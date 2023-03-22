@@ -29,18 +29,21 @@ theme.forEach((item) => {
   });
 });
 
-const image = document.querySelector(".image");
+const images = document.querySelectorAll(".image");
 
-image.addEventListener("mouseover", agrandir);
-image.addEventListener("mouseout", retrecir);
+images.forEach(image => {
+  image.addEventListener("mouseover", agrandir);
+  image.addEventListener("mouseout", retrecir);
+});
 
 function agrandir() {
-    image.style.transform = "scale(1.2)";
+  this.style.transform = "scale(1.2)";
 }
 
 function retrecir() {
-    image.style.transform = "scale(1)";
+  this.style.transform = "scale(1)";
 }
+
 
 // récupération de la couleur du thème dans le localStorage
 const savedTheme = localStorage.getItem("themeColor");
