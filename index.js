@@ -29,6 +29,19 @@ theme.forEach((item) => {
   });
 });
 
+const image = document.querySelector(".image");
+
+image.addEventListener("mouseover", agrandir);
+image.addEventListener("mouseout", retrecir);
+
+function agrandir() {
+    image.style.transform = "scale(1.2)";
+}
+
+function retrecir() {
+    image.style.transform = "scale(1)";
+}
+
 // récupération de la couleur du thème dans le localStorage
 const savedTheme = localStorage.getItem("themeColor");
 if (savedTheme) {

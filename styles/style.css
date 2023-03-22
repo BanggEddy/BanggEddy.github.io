@@ -389,6 +389,10 @@ text-decoration-thickness: 4px;
     text-align: center;
 }
 
+.image {
+    transform-origin: 50% 50%;
+    transition: transform 1s;
+  }
 
 /* Media Queries */
 @media (max-width:807px){
