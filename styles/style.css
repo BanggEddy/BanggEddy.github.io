@@ -364,7 +364,25 @@ text-decoration-thickness: 4px;
     font-size: 15px;
 }
 
-
+/*Veilles */
+#hautveilles{
+    background-image:url('../images/veillesfond.png') ;
+    background-size: cover; 
+	background-position: center ;
+    height: 340px;
+}
+.presentationveilles{
+    background-image:url('../images/veilles.png');
+    display: inline-block;
+    padding: 4em 0em;
+    border-radius: 5px;
+    text-align: center;
+    border-radius: 40px;
+    border: solid white !important;
+    box-shadow: 1px 5px 12px 5px #000 ;
+    background-size: cover; 
+	background-position: center ;
+}
 /*Contact */
 #hautcontact{
     background-image:url('../images/fondcontact.jpg') ;
@@ -395,6 +413,14 @@ text-decoration-thickness: 4px;
     border-radius: 15%;
   }
 
+  .card {
+    transition: all 0.3s ease-in-out;
+    border-radius: 10% !important;
+    border: solid rgb(39, 158, 167) !important;
+    box-shadow: 1px 2px 30px 3px rgb(39, 158, 167)  ;
+    background-color: rgb(39, 158, 167) !important;
+    
+  }
 /* Media Queries */
 @media (max-width:807px){
     .cestmoipres{
