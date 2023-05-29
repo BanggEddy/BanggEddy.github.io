@@ -162,7 +162,26 @@ header ul li a:hover{
     border-radius:5%;
     font-size: 15px;
 }
+/* Media query pour la version mobile */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+    }
 
+    header ul {
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
 .presentation{
     background-image:url('../images/pre.gif');
     display: inline-block;
@@ -455,4 +474,5 @@ text-decoration-thickness: 4px;
         text-align: center;
     }
 }
+
     
